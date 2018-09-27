@@ -20,7 +20,7 @@ float bubble(const int N){
       down=+5;
     }
     down = 5;
-    max = 0;
+    int max = 0;
     for(int i=0;i<N;i++){
       if(array_Bu[i]>array_Bu[i+1]){
         array_Bu[i] = array_BuN[i+1];
